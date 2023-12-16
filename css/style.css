@@ -1,17 +1,4 @@
-*{
-    box-sizing: border-box;
-}
 
-body,
-html {
-    margin: 0;
-    padding: 0;
-}
-
-.wrapper {    
-    height: 100vh;
-    background-color: azure;
-}
 
 .form{
     display: flex;
@@ -20,8 +7,31 @@ html {
     padding-top: 400px;
 }
 
-.inputText {
+
+
+input[type='text'] {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(110, 197, 143);
     margin-right: 15px;
     margin-left: 15px;
+}
+
+
+select[name='operatoin'] {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: azure;
+}
+
+input[type='submit'] {
+    outline: none;
+    background-color:rgb(110, 197, 143);
+    border-radius:15px;
+    border: none;
+    padding: 10px;
 }
 

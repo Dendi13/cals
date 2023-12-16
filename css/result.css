@@ -1,0 +1,15 @@
+.res {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    padding-top: 400px;
+    font-size: 20px;
+}
+
+.resul{
+    margin-top: 10px;
+}
