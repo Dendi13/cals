@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {    
+    height: 100vh;
+    background-color: azure;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+}
+
+.inputText {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
